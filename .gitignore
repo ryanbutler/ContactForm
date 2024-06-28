@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ContactForm/.vs
+/ContactForm/bin/roslyn
+/ContactForm/bin
+/ContactForm/obj/Debug
+/ContactForm/packages/Antlr.3.5.0.2
+/ContactForm/packages
