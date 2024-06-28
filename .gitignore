@@ -11,3 +11,7 @@
 /ContactForm/packages
 /ContactForm/obj/Release
 /ContactForm/Properties/PublishProfiles
+/bin
+/obj
+/packages
+/Properties/PublishProfiles
