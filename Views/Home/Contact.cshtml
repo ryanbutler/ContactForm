@@ -42,6 +42,24 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+<div id="loading">
+    <div id="loadingcontent">
+        <p id="loadingspinner">
+            Processing...
+        </p>
+    </div>
+</div>
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript">
+
+        $(function () {
+            $("form").submit(function () {
+                if ($(this).valid()) {
+                    $("#loading").fadeIn();
+                }
+            });
+        });
+    </script>
 }
